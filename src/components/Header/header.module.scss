@@ -1,0 +1,27 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #4f27bf;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+
+  .header__logo {
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+  }
+
+  .header__name {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+  }
+}
